@@ -16,8 +16,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop ="16dp"
         android:layout_marginEnd="16dp"
-
         >
+
+
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/main_IMG_hart1"
             android:layout_width="0dp"
@@ -42,7 +43,20 @@
             android:layout_marginStart="10dp"
             />
     </LinearLayout>
-<LinearLayout
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+
+        />
+
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -64,7 +78,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -75,7 +89,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -86,7 +100,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -96,7 +110,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -106,7 +120,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -116,7 +130,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -126,7 +140,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -135,7 +149,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1.3"
+    android:layout_weight="1.2"
     android:orientation="vertical"
     >
     <com.google.android.material.textview.MaterialTextView
@@ -163,7 +177,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -174,7 +188,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -185,7 +199,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -195,7 +209,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -205,7 +219,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -215,7 +229,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -225,7 +239,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -235,7 +249,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1.3"
+        android:layout_weight="1.2"
         android:orientation="vertical"
         >
         <com.google.android.material.textview.MaterialTextView
@@ -248,6 +262,7 @@
             android:textSize="50sp"
             ></com.google.android.material.textview.MaterialTextView>
     </LinearLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -263,7 +278,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -274,7 +289,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -284,7 +299,7 @@
             android:visibility="invisible"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
@@ -294,7 +309,7 @@
             android:visibility="invisible"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
@@ -305,7 +320,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -315,7 +330,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
@@ -325,14 +340,706 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/poop"
             />
 
     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR0C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR1C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR2C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR3C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR4C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR5C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_poopR6C3"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/poop"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR0C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR1C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR2C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR3C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR4C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR5C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_poopR6C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/poop"
+                />
+
+        </LinearLayout>
 
 </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="80dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR0C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR1C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR2C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR3C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR4C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR5C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR6C0"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR0C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR1C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR2C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR3C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR4C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR5C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR6C1"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR0C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR1C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR2C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR3C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR4C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR5C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR6C2"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR0C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR1C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR2C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR3C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR4C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR5C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR6C3"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_line8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="|\n\n|\n\n|\n\n|\n\n|"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                ></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR0C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR1C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR2C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR3C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR4C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR5C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_coinR6C4"
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coin"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -350,20 +1057,36 @@
             />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/main_IMG_stickMan1"
-            android:visibility="visible"
+            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/stick_man"
             />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/main_IMG_stickMan2"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/stick_man"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_stickMan3"
             android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/stick_man"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_stickMan4"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/stick_man"

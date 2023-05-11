@@ -3,24 +3,28 @@ package com.example.a23b11345a_guyzvilich_318458882;
 
 import android.widget.Toast;
 
+import com.example.a23b11345a_guyzvilich_318458882.Utilities.SignalGenerator;
+
 import java.util.Random;
 
 public class GameManager {
 
 
-    private final int RANDOM = 3;
+    private final int RANDOM = 5;
     private int life;
     private int currPosition;
+    private int score;
     private SignalGenerator signalGenerator;
 
     public GameManager(){
 
         this.life = 3;
-        this.currPosition=1;
+        this.currPosition=2;
+        this.score =0;
         signalGenerator = SignalGenerator.getInstance();
 
     }
-    public int GenerateNewPoop()
+    public int GenerateNewPosition()
     {
         int res = new Random().nextInt(RANDOM);
         return res;
@@ -30,7 +34,6 @@ public class GameManager {
         life--;
         vibrate();
         toast();
-
     }
 
     public void vibrate()
@@ -58,4 +61,12 @@ public class GameManager {
         currPosition=position;
 
     }
+
+    public int getScore(){return score;}
+    public void setScore(int addOn)
+    {
+        score += addOn;
+    }
+
+
 }
